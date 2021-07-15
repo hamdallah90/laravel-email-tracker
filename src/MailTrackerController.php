@@ -5,6 +5,7 @@ namespace MichaelGrimshaw\MailTracker;
 use MichaelGrimshaw\MailTracker\Events\MailEvent;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use MichaelGrimshaw\MailTracker\Models\TrackedMailEvent;
 
 /**
  * Class MailTrackerController
